@@ -1,4 +1,4 @@
-The purpose of the project:
+# The purpose of the project:
 
 The widespread use of the Internet of Things in agriculture 
 has profoundly affected the way agriculture works. We use 
