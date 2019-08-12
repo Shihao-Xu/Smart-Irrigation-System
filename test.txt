@@ -1,0 +1,10 @@
+Testing:
+Reading data correctly
+Fitting machine learning model well
+Prediction result close to label values
+Line chart and scatter plotted correctly
+
+Known error:
+If the data file address is incorrecct, the program can not read data from files can report error.
+
+Because we only got data of three crops, we can not predict the daily water usage of other crops.

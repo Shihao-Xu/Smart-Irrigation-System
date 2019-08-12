@@ -1,0 +1,19 @@
+Program design:
+    In this project, python is used in processing data and making prediction. We 
+process the weather information firstly, and then we use different plans to caluculat 
+the daily water by evapotranspiration and monthly water uage. The code of this part is  
+'dataprocess.ipynb'.
+So, we have taining dataset by now, the following steps are chooseing different machine 
+learning moodel, and using them on our taining dataset individually, our choices are
+KNN model, linear model, kernal model and decision tree model. we implementation them 
+in the following 4 files: 'DT.ipynb','Kernal.ipynb','KNN.ipynb','Linear.ipynb'.
+Before we use these 4 models on all dataset, it should be easy to just use these models
+on one kind of crop(we have 3 kinds of crop). so we design a file to make prediction on
+rice using these 4 models, and compare their performance, this part is in'Monthlycompa-
+re.ipynb'. After compare the performances, we found that DT model is better for our prediction.
+Improvements:
+   Our project just collect maximum and minimum temperature, radiation and rainfall, so 
+if we can have more weather information about our study area, may be we can get more 
+precise predictionwe plan to find other factors related to water usage as features. 
+Finding more training data and trying other parameters in different models are also
+good ways to decrease the MAE

@@ -1,0 +1,6 @@
+Setup and execute
+All our program files are ipynb files, which excute on jupyter notebook. 
+There is no need to setup when executing on another computer, we witer 
+our code on jupyter notbook, so it is necessary to install jupyter notebook,
+an also when we use machine learning models, we import sklearn packeage, so
+install this packeage is also necessary.
